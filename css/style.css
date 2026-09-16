@@ -1,0 +1,612 @@
+.logo
+{
+    width: 120px;
+    height: 100px;
+}
+
+.hero-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 4;
+    color: #fff;
+    padding: 0 5%;
+    width: 100%;
+}
+.job-title,
+.welcome-msg,
+.short-desc,
+.Projects-title,
+.Skilles-title,
+.about-title,
+.contact-title
+{
+    color: #b31277;
+}
+.welcome-msg,
+.Projects-title,
+.Skilles-title,
+.about-title,
+.contact-title
+{
+    font-family: "Fredoka One", sans-serif;
+    font-size: 70px;
+}
+.name-tag
+{
+    font-family: "Fredoka One", sans-serif;
+    font-size: 30px;
+    color: #1d2a44;
+}
+
+.download-resume
+{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #b31277;
+    border-radius: 50px;
+    color: #b31277;
+    font-weight: bold;
+}
+.logo-container {
+    display: flex;
+    gap: 0;
+}
+
+.logo {
+    margin: 0;
+}
+#firstname
+{
+    padding: 0;
+    margin: 0;
+
+}
+#lastname{
+    padding: 0;
+    margin: 0;
+}
+.short-prif
+{
+    color: #1d2a44;
+    font-weight: bold;
+}
+.nav-item a
+{
+    color: #1d2a44;
+    font-weight: bold;
+}
+#lastName
+{
+    color: #1d2a44;
+    font-family: "Fredoka One", sans-serif;
+}
+#firstName
+{
+    color: #b31277;
+    font-family: "Fredoka One", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+/* *************************projects Section***************************** */
+.Projects-container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Projects-title,
+.Skilles-title
+{
+    text-align: center;
+}
+
+.Projects-sticky {
+    position: sticky;
+    top: 0;
+    height: 600px;
+}
+
+.project-cards {
+    height: 100%;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+
+.project-card {
+    height: 600px;
+    scroll-snap-align: start;
+}
+.first-project img,
+.second-project img,
+.third-project img {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 15px;
+    
+}
+
+/* < !-- ----------------------------Skilles------------------------- --> */
+
+.Skilles-Container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.skilles-cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
+.frontend-card-title,
+.backend-card-title,
+.tools-card-title,
+.bio,
+.about-contant
+{
+color: #b31277;
+font-weight: bold;
+
+}
+.about-title
+{
+    font-size: 50px;
+}
+.tools-subTitle,
+.backend-subTitle,
+.frontend-subTitle,
+.name,
+.about-job-title
+{
+    color: #b31277;
+    font-weight: bold;
+    opacity: 0.3;
+}
+
+.frontend-card,
+.backend-card,
+.tools-card
+{
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #b31277;
+    border-radius: 15px;
+}
+.frontend-card button,
+.backend-card button,
+.tools-card button
+{
+    background-color: transparent;
+    border: 2px solid #1d2a44;
+    padding: 10px;
+    color: #b31277;
+    border-radius: 15px;
+}
+
+.frontend-skilles,
+.backend-skilles,
+.tools-skilles
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.frontend-card,
+.backend-card,
+.tools-card {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+}
+
+/* < !-- ----------------------------About------------------------- --> */
+
+.about-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.about-content-section
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+    padding: 30px;
+    gap: 30px;
+}
+.about-me-img
+{width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.bio,
+.about-contant
+{
+    color: #1d2a44;
+}
+.left-about
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* < !-- ----------------------------Contact------------------------- --> */
+
+.contact-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.call-me-video
+{
+    width: 400px;
+    height: 400px;
+}
+
+.main-contant
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.left-contact form
+{
+    display: flex;
+    flex-direction: column; gap: 50px;
+    padding-top: 50px;
+    width: 400px;
+}
+input
+{
+    height: 40px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #6c7a89;
+}
+.submit-btn
+{
+    border: 2px solid #b31277;
+    border-radius: 15px;
+    color: #b31277;
+    font-weight: bold;
+    background-color: transparent;
+}
+.copy-right
+{
+    color: #1d2a44;
+
+}
+.my-name
+{
+    color: #1d2a44;
+    font-weight: bold;}
+#description
+{
+    color: #b31277;
+}
+.connect
+{
+    color: #1d2a44;
+    font-weight: bold;
+}
+.iconee i{
+    width: 100px;
+    height: 50px;
+}
+footer
+{
+    border-top: 1px solid #1d2a44;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+/* ------------------------------Responsive Design_------------------------------------------- */
+
+  /* Mobile=========================*/ 
+@media (max-width: 576px) {
+
+    /* Navbar */
+
+    .container-fluid {
+        padding: 10px 15px;
+    }
+
+    #firstName,
+    #lastName {
+        font-size: 24px;
+    }
+
+    .navbar-toggler {
+        padding: 5px 8px;
+    }
+
+    .navbar-nav {
+        gap: 0 !important;
+        margin-top: 15px;
+    }
+
+    .nav-item {
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .nav-item a {
+        font-size: 16px;
+    }
+
+    /* Hero */
+
+    .hero-section {
+        height: 75vh;
+        min-height: 500px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-content {
+        padding: 0 20px;
+    }
+
+    .name-tag {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .welcome-msg {
+        font-size: 42px;
+        line-height: 1.1;
+        margin: 15px 0 25px;
+    }
+
+    .download-resume {
+        width: 170px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .hero-video {
+        border-radius: 10px;
+    }
+
+    .Projects-title {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .project-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .first-project,
+    .second-project,
+    .third-project,
+    .project-cards img {
+        width: 100%;
+        max-width: 350px;
+        height: 350px;
+    }
+
+    .project-text {
+        padding: 20px;
+    }
+
+    .project-text span {
+        font-size: 16px;
+        height: auto;
+    }
+
+    .Skilles-title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .frontend-card {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .frontend-skilles button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .frontend-skilles {
+        gap: 8px;
+    }
+
+    .frontend-skilles button {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+
+    .frontend-skilles button i {
+        font-size: 16px;
+    }
+    
+ .skilles-cards {
+     flex-direction: column;
+     align-items: center;
+     gap: 20px;
+     padding: 15px;
+ }
+
+ .frontend-card,
+ .backend-card,
+ .tools-card {
+     width: 100%;
+     max-width: 320px;
+     height: auto;
+ }
+
+ .about-content-section {
+     flex-direction: column;
+     width: 100%;
+     padding: 15px;
+     text-align: center;
+     gap: 15px;
+ }
+
+ .about-title {
+     font-size: 32px;
+     text-align: center;
+ }
+
+ .about-me-img {
+     width: 150px;
+     height: 150px;
+ }
+
+ .main-contant {
+     flex-direction: column;
+     gap: 20px;
+     align-items: center;
+ }
+
+ .call-me-video {
+     width: 100%;
+     max-width: 300px;
+     height: 300px;
+ }
+
+ .left-contact form {
+     width: 100%;
+     padding: 0 15px;
+     gap: 25px;
+ }
+
+ .contact-title {
+     font-size: 32px;
+     text-align: center;
+ }
+
+ footer .row {
+     text-align: center;
+ }
+
+ .iconee {
+     justify-content: center;
+ }
+}
+
+
+  /* Tablet=========================*/
+  @media (min-width: 577px) and (max-width: 992px) {
+
+      /* Navbar */
+      .navbar-nav {
+          gap: 20px !important;
+      }
+
+      /* Hero */
+      .welcome-msg {
+          font-size: 52px;
+      }
+
+      .name-tag {
+          font-size: 24px;
+      }
+
+      /* Skilles */
+      .skilles-cards {
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 30px;
+      }
+
+      .frontend-card,
+      .backend-card,
+      .tools-card {
+          width: 45%;
+      }
+
+      /* Projects */
+      .first-project img,
+      .second-project img,
+      .third-project img {
+          width: 90%;
+          height: 400px;
+      }
+
+      /* About */
+      .about-content-section {
+          width: 90%;
+          gap: 20px;
+      }
+
+      .about-title {
+          font-size: 42px;
+      }
+
+      /* Contact */
+      .main-contant {
+          gap: 30px;
+      }
+
+      .call-me-video {
+          width: 300px;
+          height: 300px;
+      }
+
+      .left-contact form {
+          width: 300px;
+      }
+  }

@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- css link -->
+  <link rel="stylesheet" href="/css/style.css" />
+  <!-- bootstrab -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Fredoka+One&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aclonica&family=Fredoka+One&family=Quicksand:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2Lw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- ----------------------------Header------------------------- -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="firstName">Farah</a><a class="navbar-brand" href="#"
+          id="lastName">El-aydi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav gap-5">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button>Night</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ----------------------------Main------------------------- -->
+  <main>
+    <!-- ----------------------------Hero------------------------- -->
+    <div class="hero-section">
+      <video class="hero-video" src="/images/hero-video.mp4" autoplay loop muted playsinline></video>
+
+      <div class="hero-content">
+        <h2 class="name-tag">Hello It's Farah Elaydi Portfolio</h2>
+        <h1 class="welcome-msg">Full-Stack Developer.</h1>
+        <button class="download-resume">Download Resume</button>
+      </div>
+    </div>
+
+    <!-- ----------------------------Skills------------------------- -->
+    <section class="Skilles-Container" id="skills">
+      <h1 class="Skilles-title">Technologies I master</h1>
+      <div class="skilles-cards">
+        <!-- 1card -->
+        <div class="frontend-card">
+          <p class="frontend-card-title">Frontend</p>
+          <p class="frontend-subTitle">Frontend Development</p>
+          <div class="frontend-skilles">
+            <button><i class="devicon-react-original colored"></i>React</button>
+            <button><i class="devicon-nodejs-plain-wordmark"></i>node.js</button>
+            <button><i class="devicon-tailwindcss-original colored"></i>Tailwind CSS</button>
+            <button><i class="devicon-javascript-plain colored"></i>JavaScript</button>
+            <button><i class="devicon-html5-plain colored"></i>HTML5</button>
+            <button><i class="devicon-css3-plain colored"></i>CSS3</button>
+          </div>
+        </div>
+
+        <!-- 2Card -->
+        <div class="backend-card">
+          <p class="backend-card-title">Backend</p>
+          <p class="backend-subTitle">Backend</p>
+          <div class="backend-skilles">
+            <button><i class="devicon-java-plain colored"></i>Java</button>
+            <button><i class="devicon-nodejs-plain-wordmark"></i>Node.js</button>
+            <button><i class="devicon-laravel-original colored"></i>Laravel</button>
+            <button><i class="devicon-dot-net-plain colored"></i>.net</button>
+          </div>
+        </div>
+
+        <div class="tools-card">
+          <p class="tools-card-title">Tools & Others</p>
+          <p class="tools-subTitle">Utilities</p>
+          <div class="tools-skilles">
+            <button><i class="devicon-git-plain colored"></i>Git</button>
+            <button><i class="devicon-figma-plain colored"></i>Figma</button>
+            <button><i class="devicon-postman-plain colored"></i>Postman</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------Projects------------------------- -->
+    <section class="Projects-container" id="projects">
+      <div class="Projects-sticky">
+        <h1 class="Projects-title">My latest work</h1>
+
+        <div class="project-cards">
+          <!-- CARD ONE -->
+          <div class="project-card first-project">
+            <img src="/images/petty.png" alt="" class="petty-img">
+            <div class="project-text"></div>
+          </div>
+
+          <!-- CARD TWO -->
+          <div class="project-card second-project">
+            <img src="/images/recipefy.png" alt="" class="recipfy-img">
+            <div class="project-text"></div>
+          </div>
+
+          <!-- CARD THREE -->
+          <div class="project-card third-project">
+            <img src="/images/job-img.png" alt="" class="recipfy-img">
+            <div class="project-text"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------About------------------------- -->
+    <section id="about" class="about-container">
+      <h1 class="about-title">Welcome to my digital playground! </h1>
+      <div class="about-content-section">
+        <div class="left-about">
+          <img src="/images/hero-img.png" alt="" class="about-me-img">
+          <p class="name">Farah El-aydi</p>
+          <p class="about-job-title">Full-Stack</p>
+        </div>
+        <div class="right-about">
+          <p class="bio">Bio:</p>
+          <p class="about-contant">I’m a Computer Science graduate who started my career in Technical Support. While I
+            gained valuable experience in problem-solving and working with people, I realized that I wanted to return to
+            something I truly enjoy — building and creating.
+            That’s why I decided to start my Full-Stack Development journey with Orange. I’m currently learning,
+            building, and exploring different technologies as I work towards becoming a Full-Stack Developer.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------Contact------------------------- -->
+    <div class="contact-container" id="contact">
+      <h1 class="contact-title">Let’s work together </h1>
+      <div class="main-contant">
+        <div class="right-contact">
+          <video class="call-me-video" src="/images/say-hello2.mp4" autoplay loop muted playsinline></video>
+        </div>
+        <div class="left-contact">
+          <form action="">
+            <input type="email" placeholder="Your email" class="email">
+            <input type="text" placeholder="Message" class="message">
+            <input type="submit" value="Send message" class="submit-btn">
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ----------------------------Footer------------------------- -->
+  <footer class="text-light pt-5 pb-3">
+    <div class="container">
+      <div class="row gy-4 justify-content-evenly">
+        <div class="col-12 col-md-4">
+          <h5 class="mb-2 my-name">Farah Elaydi</h5>
+          <p class="mb-0" id="description">Designing clean, purposeful interfaces.</p>
+        </div>
+
+        <div class="col-6 col-md-4">
+          <h6 class="text-uppercase mb-3 connect">Connect</h6>
+          <div class="d-flex gap-3 iconee">
+            <a href="https://www.linkedin.com/in/farah-elaydi-948510232/"><i class="devicon-linkedin-plain-wordmark"></i></a>
+            <a href="https://github.com/farahaydi"><i class="devicon-github-original colored"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i
+                class="devicon-google-plain colored"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="border-secondary mt-4 copy-right">
+      <p class="text-center text-secondary small mb-0">
+        &copy; 2026 Farah Elaydi. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
