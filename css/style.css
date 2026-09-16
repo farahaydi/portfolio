@@ -153,6 +153,7 @@
     height: 500px;
     object-fit: cover;
     border-radius: 15px;
+    border: 2px solid #b31277;
     
 }
 
@@ -174,6 +175,7 @@
     justify-content: center;
     gap: 50px;
     padding: 30px;
+    
 }
 .frontend-card-title,
 .backend-card-title,
@@ -211,6 +213,21 @@ font-weight: bold;
     flex-direction: column;
     border: 2px solid #b31277;
     border-radius: 15px;
+    animation: glow 1s ease-in-out infinite;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 0px rgba(194, 13, 120, 0);
+    }
+
+    50% {
+        box-shadow: 0 0 15px rgba(194, 13, 120, 0.5);
+    }
+
+    100% {
+        box-shadow: 0 0 0px rgba(194, 13, 120, 0);
+    }
 }
 .frontend-card button,
 .backend-card button,
